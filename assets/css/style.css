@@ -1,0 +1,497 @@
+/* global props | markup */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Harmattan', sans-serif;
+    /* height: 100%;
+    width: 100%; */
+    
+}
+/* global props | case buttons */
+button {
+    background-color: #333;
+    border-radius: 5px 5px;
+    border: none;
+    height: 55px;
+    width: 155px;
+    margin: 10px;
+
+    transition: all 2s ease-in;
+}
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+button:hover {
+    background-color: rgb(43, 201, 153);
+    text-decoration: underline;
+}
+/* global props | font awesome icons */
+.fab,
+.far,
+.fas {
+    font-size: 26px;
+    color: #fff;
+}
+#casestudy i {
+    color: rgb(43, 201, 153);
+}
+/* global props | headings */
+h2 { /* section heading */
+    text-decoration: underline;
+}
+h3 {
+    /* color: rgb(43, 201, 153); */
+    text-decoration: underline;
+    font-weight: bold;
+}
+#contact h4 {
+    text-align: left;
+}
+/* header + footer props */
+.header,
+.footer {
+    background: #fff;
+    height: 30px;
+    padding: 8px;
+    font-size: 1em;
+}
+.footer {
+    text-align: center;
+}
+.header a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.header a:hover {
+    border-bottom: 4px solid rgb(43, 201, 153);
+    border-width: 8px;
+    color: rgb(43, 201, 153);
+    /* font-size: 1.2em; */
+    
+}
+.header .fas {
+    color: rgb(43, 201, 153);
+    font-size: 14px;
+    padding-left: 10px;
+}
+/* index.html banner */
+.banner {
+    clear: both;
+    width: 100%;
+    margin: auto;
+    background: #333;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+.banner i {
+    padding: 10px;
+    color: rgb(43, 201, 153);
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 1s ease;
+}
+.banner i:hover {
+    padding: 10px;
+    color: rgb(43, 201, 153);
+    text-decoration: underline;
+    font-size: 1.8em;
+}
+.banner h1 {
+    text-decoration: underline;
+    
+}
+.banner h1, 
+.banner h2 {
+    width: 100%;
+    color: #fff;
+}
+/* image positioning and insertion */
+.box {
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    background: #333;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+/* maps */
+#maps {
+    height: 400px;
+    width: 100%;
+    background: #333;
+}
+section {
+    text-align: center;
+    /* margin: auto; */
+}
+
+/* project sections website icons */
+#projects .fab,
+#projects .far,
+#projects .fas {
+    color: rgb(43, 201, 153);
+    font-size: 16px;
+}
+/* spans */
+.left {
+    float: left;
+
+}
+.right {
+    float: right;
+}
+
+/* tickets contact info */
+.tickets {
+    /* height: 50px; */
+    /* width: 90%; */
+    /* border: 2px solid #333; */
+    border-radius: 5px 5px;
+    margin: 8px;
+    padding: 10px;
+    background-color: #333;
+    /* margin: auto; */
+
+    transition: all 1.5s;
+}
+.tickets:hover {
+    background-color: rgb(43, 201, 153);
+    transform: scale(1.1);
+}
+.tickets a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* personal projects box props */
+.box__animate {
+    background-position: top;
+    background-size: cover;
+    transition: all 3.5s ease; 
+}
+.box__animate:hover {
+    background-position: bottom;
+    background-size: auto;
+}
+/* personal projects box backgrounds */
+.box__medical {
+    background-image: url("../img/box-Medical.JPG");
+}
+.box__coffee {
+    background-image: url("../img/box-Cafe.JPG");
+}
+.box__tech {
+    background-image: url("../img/box-Tech.JPG");
+}
+.box__travel {
+    background-image: url("../img/box-Travel.JPG");
+}
+.box__gallery {
+    background-image: url("../img/box-Gallery.JPG");
+    background-position: center;
+    background-size: cover;
+}
+.box__project-blog {
+    background-image: url("../img/project-blog.JPG");
+}
+
+/* case study page banners */
+.case__heading {
+    height: 20vh;
+    background-attachment: top;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.case__bottom {
+    height: 20vh;
+    background-position: bottom center;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* grid props for mobile */
+.grid-mos {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.mos-item {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+
+/* Grid mosaic items */
+.one {
+    background-image: url("../img/grid-gal/grid-item-1.JPG");
+    background-position: top left;
+    background-size: cover;
+    /* opacity: 0.7; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  }
+  .two {
+    background-image: url("../img/grid-gal/grid-item-2.JPG");
+    background-position: top left;
+    background-size: cover;
+    /* opacity: 0.7; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  }
+  .three {
+    background-image: url("../img/grid-gal/grid-item-3.JPG");
+    background-position: top left;
+    background-size: cover;
+    /* opacity: 0.6; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  }
+  .four {
+    background-image: url("../img/grid-gal/grid-item-4.JPG");
+    background-position: top left;
+    background-size: cover;
+    /* opacity: 0.6; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  }
+  .five {
+    background-image: url("../img/grid-gal/grid-item-5.JPG");
+    background-position: top right;
+    background-size: cover;
+    /* opacity: 0.6; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  }
+  .six {
+    background-image: url("../img/grid-gal/grid-item-6.JPG");
+    background-position: bottom right;
+    background-size: cover;
+    /* opacity: 0.6; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  }
+  .seven {
+    background-image: url("../img/grid-gal/grid-item-7.JPG");
+    background-position: top left;
+    background-size: cover;
+    /* opacity: 0.6; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  }
+  .eight {
+    background-image: url("../img/grid-gal/grid-item-8.JPG");
+    background-position: bottom right;
+    background-size: cover;
+    /* opacity: 0.6; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  
+  }
+  .nine {
+    background-image: url("../img/grid-gal/grid-item-9.JPG");
+    background-position: bottom right;
+    background-size: cover;
+    /* opacity: 0.6; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  
+  }
+  .ten {
+    background-image: url("../img/grid-gal/grid-item-10.JPG");
+    background-position: top right;
+    background-size: cover;
+    /* opacity: 0.6; */
+  
+    transition-property: all ease;
+    transition-duration: 2s;
+  
+  }
+
+/* media queries for desktop */
+@media screen and (min-width: 960px) {
+    .banner {
+        margin: auto;
+        width: 100%;
+    }
+    .banner p {
+        font-size: 0.7em;
+    }
+    .box {
+        max-width: 940px;
+        width: 750px;
+        height: 450px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+       
+    }
+    img {
+        height: 450px;
+        max-width: 940px;
+        width: 750px;
+
+    }
+    .header a:hover {
+        border-bottom: 4px solid rgb(43, 201, 153);
+        border-width: 8px;
+        color: rgb(43, 201, 153);
+        font-size: 1.2em;
+        
+    }
+    /* .flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    } */
+   
+    .section__container {
+        max-width: 900px;
+        margin: auto;
+    }
+    .section__projects {
+        /* max-width: 900px; */
+        width: 100%;
+        /* height: fit-content; */
+        margin: auto;
+    }
+    .tickets {
+    border: 2px solid #333;
+    padding: 10px;
+    /* margin-left: 10px; */
+    }
+    .case__heading {
+        height: 30vh;
+        background-attachment: fixed;
+        background-origin: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+    .case__bottom {
+        height: 30vh;
+        background-attachment: fixed;
+        background-origin: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .footer-left {
+        float: left;
+    }
+    .footer-right {
+        float: right;
+    }
+    /* grid props [test] */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        width: 100%;
+
+    }
+    .grid-item {
+        height: 300px;
+        width: 100%;
+        background-color: #333;
+
+        background-position: center;
+    }
+
+    /* gallery.html [GRID Gallery] */
+    .mosaic-container {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+        height: 100%;
+        width: 100%;
+      }
+      .mos-item {
+        align-items: center;
+        color: #000;
+        display:flex;
+        justify-content: center;
+      
+        transition-property: all ease;
+        transition-duration: 2s;
+        /* opacity: 0.6; */
+      }
+      .mos-item:hover {
+        background-position: center;
+        color: purple;
+        font-weight: bold;
+        opacity: 1;
+      }
+      
+      
+      /* Grid-mos Child elements
+      Classes: smal, medium, large, wide and tall
+      Sizing:  1x1, 2x2, 3x3, 2x3, 3x2  */
+      .small {
+        grid-row: span 1;
+        grid-column: span 1;
+        padding: 0;
+        margin: 0;
+      }
+      .medium {
+        grid-row: span 2;
+        grid-column: span 2;
+        padding: 0;
+        margin: 0;
+      }
+      .large {
+        grid-row: span 3;
+        grid-column: span 3;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .wide {
+        grid-row: span 2;
+        grid-column: span 3;
+        padding: 0;
+        margin: 0;
+      }
+      .tall {
+        grid-row: span 3;
+        grid-column: span 2;
+        padding: 0;
+        margin: 0;
+      }
+    
+}
+
