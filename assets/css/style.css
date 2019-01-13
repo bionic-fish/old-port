@@ -88,7 +88,7 @@ h3 {
     width: 100%;
     margin: auto;
     background: #333;
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
     text-align: center;
     margin-bottom: 10px;
     color: #fff;
@@ -347,9 +347,7 @@ section {
         margin: auto;
         width: 100%;
     }
-    .banner p {
-        font-size: 0.7em;
-    }
+    
     .box {
         max-width: 940px;
         width: 750px;
