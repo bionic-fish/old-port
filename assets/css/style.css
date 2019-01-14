@@ -213,6 +213,48 @@ section {
     background-image: url("../img/project-blog.JPG");
 }
 
+.box__js-projects {
+    
+}
+.box__js-projects {
+    border-radius: 15px;
+    height: 200px;
+    width: 100%;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box__js-projects h5 {
+background: rgba(255, 255, 255, 0.3);
+}
+.box__js-projects h5,
+.box__js-projects a {
+    color: #333;
+    font-size: 1.3em;
+    text-shadow: 2px 2px rgb(43, 201, 153);
+    letter-spacing: 2px;
+    text-decoration: none;
+    width: 100%;
+    transition: all 1s ease-in;
+    
+}
+.box__js-projects a:hover {
+    border-bottom: 4px solid rgb(43, 201, 153);
+}
+/* box__[project] background */
+.box__clock {background-image: url('../img/js-proj/box-clock.JPG');}
+.box__weather {background-image: url('../img/js-proj/box-weather.JPG');}
+.box__futurama {background-image: url('../img/js-proj/box-futurama.JPG');}
+
+/* background-color: rgb(43, 201, 153); */
+
 /* case study page banners */
 .case__heading {
     height: 20vh;
@@ -370,6 +412,22 @@ section {
         color: rgb(43, 201, 153);
         font-size: 1.2em;
         
+    }
+    .flex {
+        display: flex;
+        /* flex-wrap: wrap;
+        flex-direction: row; */
+        /* width: 500px; */
+        margin: auto;
+    }
+    .flex .box__js-projects {
+        max-width: 350px;
+    }
+    .box__js-projects {
+        margin: 10px auto;
+        max-width: 900px;
+        height: 300px;
+        /* border: 1px solid rgba(255, 149, 10, 0.9); */
     }
     /* .flex {
         display: flex;
