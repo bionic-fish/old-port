@@ -213,9 +213,7 @@ section {
     background-image: url("../img/project-blog.JPG");
 }
 
-.box__js-projects {
-    
-}
+
 .box__js-projects {
     border-radius: 15px;
     height: 200px;
@@ -232,7 +230,7 @@ section {
     
 }
 .box__js-projects h5 {
-background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
 }
 .box__js-projects h5,
 .box__js-projects a {
