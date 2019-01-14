@@ -413,9 +413,6 @@ section {
     }
     .flex {
         display: flex;
-        /* flex-wrap: wrap;
-        flex-direction: row; */
-        /* width: 500px; */
         margin: auto;
     }
     .flex .box__js-projects {
@@ -427,11 +424,7 @@ section {
         height: 300px;
         /* border: 1px solid rgba(255, 149, 10, 0.9); */
     }
-    /* .flex {
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-    } */
+  
    
     .section__container {
         max-width: 900px;
