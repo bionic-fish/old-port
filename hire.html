@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ReDesign | Hire</title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+
+  <!-- External Libaries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body id="hirehtml">
+
+  <nav id="navbar" class="top-stick">
+
+      <h5>C Harris Digital Content Creator & Web Developer</h5>
+      <div class="flex">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Work</a>
+        <a href="hire.html">Contact</a>
+      </div>
+
+  </nav>
+
+  <div class="hero-sub">
+  <div class="hero-text">
+  <h1><span class="begining slide-left">C</span>hristopher Harris</h1>
+  <h3><span class="begining">D</span>igital Portfolio</h3>
+  </div>
+  </div>
+
+  <section id="main">
+    <h2>About Me</h2>
+
+    <br>
+
+    <p>A self taught web developer and IT enthusiast. I began my interest
+      in computers at an extremely young age and ever since has always been fascinated with technology.
+      The pace in which engineering & development has taken the tech industry has been phenominal as both
+      a hobbyist and avid learner of current web technologies.</p>
+
+    <br>
+
+    <p>As a hobbyist of PC building, a major research mindset comes into play
+    when in search for the best items and upgrades at the best prices. Forever being
+    on the look-out for new parts peaked my interest into how new and advanced technology
+    can keeep producing updated models every other year and clearly display the benefits and
+    accommodating features.</p>
+
+    <br>
+
+    <p>This began my path to functional programming. The beginning tutorial after the
+      initial "Hello World!" introduction was a Tic-Tac-Toe game. Developing the basic concepts
+    needed to complete this game using the javascript language with a bit of pre-build HTML & CSS.
+     When I completed this personal challenge I felt estatic & excited that I had completed
+     and build a basic interactive web based browser game.</p>
+
+    <br>
+
+    <p>Below are downloadable resume's and links to my development resources: github & free code camp. <br>
+      Feel free to browse to get a feel for my personal coding habits.</p>
+  </section>
+<!--
+  <section class="container">
+    <h2>Designs & Layouts</h2>
+
+    <div class="container-flex">
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div> -->
+    <!--container-flex ends here
+  </section> -->
+<br>
+
+<h2 style="text-align: center">Melbourne Based Web Developer</h2>
+<br>
+  <div id="maps"></div>
+
+<script>
+  var map;
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('maps'), {
+      center: {lat: -37.81, lng: 144.96 },
+      zoom: 8
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgVFksqUlxDK_YRxd9X-WPWZZYcD1DUHg&callback=initMap" async defer></script>
+
+  <section class="enquiry">
+    <h2>Contact Links</h2>
+
+        <b>Resume links:</b><br>
+          <a href="docs/CDHarrisResume.pdf">PDF</a>
+          <br>
+          <a href="docs/CDHarrisResume.docx">WORD</a>
+          <br>
+        <b>Social Links:</b>
+        <br>
+          <a href="mailto:c.d.harris.dedoc@gmail.com">Google Account</a>
+          <br>
+          <a href="https://github.com/bionic-fish">Github</a>
+          <br>
+          <a href="https://www.linkedin.com/in/chris-harris-b9061711a">LinkedIn</a>
+          <br>
+          <a href="https://www.freecodecamp.org/bionic-fish">Free Code Camp</a>
+
+
+    </section>
+
+
+
+  <section class="recruit">
+    <h2>For Recruiters</h2>
+
+    <iframe class="Respreview" src="docs/webRes.html"></iframe>
+
+  </section>
+
+
+<!-- footer + media icons -->
+<div class="container">
+    <footer class="split flex">
+      <div class="animate-bk">
+          <h5>Developed By C D Harris</h5>
+      </div>
+      <div class="icons">
+        <a href="mailto:c.d.harris.dedoc@gmail.com" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/in/chris-harris-b9061711a/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/bionic-fish" class="fa fa-github"></a>
+        
+      </div>
+    </footer>
+    </div><!-- container ends here-->
+
+<script src="index.js"></script>
+
+</body>
+</html>

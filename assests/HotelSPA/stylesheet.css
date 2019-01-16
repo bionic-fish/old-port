@@ -1,0 +1,180 @@
+/* Login Form */
+.formView {
+background-image: url(hillside-fog.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 85vh;
+}
+.loginBox {
+  width: 320px;
+  height: 620px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+h1 {
+  padding: 0;
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+}
+.loginBox p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.loginBox input {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.loginBox input[type="text"], input[type="password"], input[name="type"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+}
+.loginBox input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+
+  font-size: 18px;
+}
+.loginBox input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: blue;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.loginBox a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+.loginBox a:hover {
+  color: #fff;
+}
+/* Navigation Properties */
+nav {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+ 
+  
+}
+nav ul {
+  margin: auto;
+}
+nav li {
+  list-style-type: none;
+  padding: 10px;
+  
+ 
+  
+}
+nav li:hover {
+  color: blue;
+  font-size: 22px;
+}
+
+
+
+/* Section Properties + Flex View */
+section {
+  font-family: 'Allerta', cursive;
+  border-bottom: 3px solid black;
+  text-decoration: underline;
+  text-align: center;
+}
+section h1, section h2 {
+  font-family: 'Raleway', sans-serif;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 20px;
+  justify-content: center;
+}
+.banner {
+  background-color: silver;
+  background-image: url(banner.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  height: 20vh;
+  margin: 0 0 20px 0;
+}
+.banner p {
+  text-align: center;
+  text-shadow: 2px 2px #000;
+  color: #fff;
+  font-style: italic;
+  font-size: 36px;
+  top: -50%;
+}
+
+img {
+  margin: auto;
+}
+footer {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  /* margin: auto; */
+}
+/* media queries for mobile */
+@media screen and (max-width: 450px) {
+  .loginBox {
+ 
+    padding-top: 15px;
+    width: 100%;
+    height: fit-content;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+  .avatar {
+    display: none;
+  }
+  img {
+    margin: 10px;
+  }
+
+
+}

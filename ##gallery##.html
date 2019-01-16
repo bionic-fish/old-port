@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coming Soon | Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+
+  <!-- External Libaries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+</head>
+<body>
+  <header id="headings">
+    <h1>Page Currently Under Maintenance</h1>
+  </header>
+
+  <section>
+    <h1>Gallery Coming Soon</h1>
+    <h2 id="counter"></h2>
+<br>
+
+<br>
+    <p>A responsive and interactive gallery is under way and will be
+      ready before the end of December</p>
+  </section>
+
+  <section class="countdown">
+
+
+
+  </section>
+  <!-- Counter Timer Script Function
+  Targetting Div Element id=counter -->
+<script>
+  // Set the date for count down
+  var countDownDate = new Date("Dec 31, 2018 23:59:59").getTime();
+  // update the count down every second
+  var x = setInterval(function() {
+    // Get todays time and Date
+    var now = new Date().getTime();
+    // Find the distance between now and count down Date
+    var distance = countDownDate - now;
+
+    //Time calculations for days, hours, minutes & seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // display the result in the element with id="counter"
+
+    document.getElementById("counter").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+    // if the count down is finished, write some Text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("counter").innerHTML = "Count Expired!"
+    }
+  }, 1000);
+
+</script>
+
+<!--  <a href="index.html" class="btn">Back to Home</a> -->
+
+  <div class="flex-container">
+
+  </div>
+
+
+  <footer class="split">
+  <div class="ft-gd1 signiture slide-left">
+    <h4>Page Developed By<br>
+      C Harris</h4>
+      <h4>icon animation here</h4>
+  </div>
+  <div class="ft-gd2 links">
+    <a href="index.html">Home Page</a>
+    <a href="contact.html">Contact & Enquiries</a>
+    <a href="hire.html">Hire Now</a>
+  </div>
+  <div class="ft-gd3 icons">
+    <a href="mailto:c.d.harris.dedoc@gmail.com" class="fa fa-google"></a>
+    <a href="https://www.linkedin.com/in/chris-harris-b9061711a/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/bionic-fish" class="fa fa-github"></a>
+    <a href=""></a>
+  </div>
+  <div class="ft-gd4 copy">
+    <h4>Designed & Developed By Christopher Harris</h4>
+      <h5>Digital Content Creator | Front-end Web Developer</h5>
+
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,236 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: lightgrey;
+  color: #fff;
+
+}
+header > .container {
+  background-image: url(images/banner-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+}
+header > h1 {
+  color: #fff;
+}
+h1, h2 {
+  text-align: center;
+}
+span {
+  font-family: 'Pacifico', cursive;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: auto;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 0.5em;
+  grid-column-gap: 1px;
+
+  height: 100vh;
+}
+.grid-item {
+  background-color: #333;
+  color: white;
+  text-align: center;
+
+
+
+}
+.small {
+
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.medium {
+  grid-row: span 2;
+  grid-column: span 3;
+}
+.large {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+.container {
+  
+  height: 50vh;
+
+}
+
+/* Grid gallery items
+    class = gd[ reference number ]
+
+    */
+    /* Test Grid for Clients
+      h2 heading = Mixed */
+
+    .grid > .gd01 {
+      background-image: url(images/mixed/img-01.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .grid > .gd02 {
+      background-image: url(images/mixed/img-02.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .grid > .gd03 {
+      background-image: url(images/mixed/img-03.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .grid > .gd04 {
+      background-image: url(images/mixed/img-04.jpg);
+      background-position: bottom;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .grid > .gd05 {
+      background-image: url(images/mixed/img-05.jpg);
+      background-position: bottom;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .grid > .gd06 {
+      background-image: url(images/mixed/img-06.jpg);
+      background-position: bottom;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+/* class = gridOne gallery item properties
+    h2 heading = nature */
+.gridOne > .gd11 {
+  background-image: url(images/nature/img-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridOne > .gd12 {
+  background-image: url(images/nature/img-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridOne > .gd13 {
+  background-image: url(images/nature/img-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridOne > .gd14 {
+  background-image: url(images/nature/img-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridOne > .gd15 {
+  background-image: url(images/nature/img-05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridOne > .gd16 {
+  background-image: url(images/nature/img-06.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* class = gridOne gallery item properties
+    h2 heading = cities */
+.gridTwo > .gd21 {
+  background-image: url(images/cities/img-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridTwo > .gd22 {
+  background-image: url(images/cities/img-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridTwo > .gd23 {
+  background-image: url(images/cities/img-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridTwo > .gd24 {
+  background-image: url(images/cities/img-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridTwo > .gd25 {
+  background-image: url(images/cities/img-05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridTwo > .gd26 {
+  background-image: url(images/cities/img-06.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* class = gridOne gallery item properties
+    h2 heading = Black&White */
+.gridThree > .gd31 {
+  background-image: url(images/blk&wht/img-01.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridThree > .gd32 {
+  background-image: url(images/blk&wht/img-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridThree > .gd33 {
+  background-image: url(images/blk&wht/img-03.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridThree > .gd34 {
+  background-image: url(images/blk&wht/img-04.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridThree > .gd35 {
+  background-image: url(images/blk&wht/img-05.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gridThree > .gd36 {
+  background-image: url(images/blk&wht/img-06.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

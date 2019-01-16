@@ -1,0 +1,16 @@
+/* CSS Styleshett for CoffeeShopSoundtrack */
+/* Colour Scheme Below:
+
+
+*/
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/bgs.jpg");
+}
+
+img {
+  width: 100%;
+  max-width: 990px;
+  max-height: 400px;
+}

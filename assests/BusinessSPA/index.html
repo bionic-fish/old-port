@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="data-template">
+  <meta name="keywords" content="business templates, design templates, web dev melbourne">
+  <meta name="author" content="C Harris">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Local Business SPA</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Source+Code+Pro" rel="stylesheet">
+
+  <script>
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -37.814, lng: 144.963},
+      zoom: 10
+    });
+  }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLNbeYZgslxgrkG5tUYfuTvjaVyFdtnXM&callback=initMap"
+   async defer></script>
+
+</head>
+
+<body>
+  <!--Enable choice for client to have landing page or greeting page. Add ID or Class to header to create
+hero image or interactive greeting message upon request. -->
+
+
+  <div class="hero-image">
+  <div class="hero-text">
+  <h1>Random Business Name</h1>
+  <Br>
+  <button id="demo" onclick="index.js">Welcome!</button>
+  </div>
+</div>
+
+<header class="top-sticky">
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Reviews</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+</header>
+
+<!-- id=box Tester for js scroll event!
+    Configure according to screen size / device width -->
+
+<!-- grid section & layout properties -->
+<section class="container-gd">
+  <div class="gd-item gd-bus">
+    <h3>Product or Service</h3>
+    <p>Discount or Promo</p>
+  </div>
+
+  <div class="gd-item gd-head">
+    <h2>Company Logo Image</h2>
+    <p>Tagline or Company Motto.</p>
+  </div>
+
+  <div class="gd-item gd-coff">
+    <h3>Subscription or Sign-Up</h3>
+    <p>Find out more / Register today!.</p>
+  </div>
+</section>
+<!-- GRID layout ends here -->
+<main id="box">
+
+</main>
+<!-- Flex content showcasing services + features ect -->
+<section>
+    <h2>Display: Services | Products</h2>
+    <p>Cards or List View Items.</p>
+
+<div class="content-f">
+    <div class="flex-1">1
+      <p><b>Product 01:</b><br>
+        Text about product or service.</p>
+    </div>
+    <div class="flex-1">2
+      <p><b>Product 02:</b><br>
+        Text about product or service.</p>
+    </div>
+    <div class="flex-1">3
+      <p><b>Product 03:</b><br>
+        Text about product or service.</p>
+    </div>
+    <div class="flex-1">4
+      <p><b>Product 04:</b><br>
+        Text about product or service.</p>
+    </div>
+</div>
+</section>
+<!-- flex section ends here -->
+<div class="break">
+  <h2 class="break-txt">Hire Now! | Buy Now! | Sale!</h2>
+</div>
+
+<!-- Grid Section -->
+<section class="flex-service">
+  <h2>Section Heading here</h2>
+  <div class="full-f">
+  <div>
+    <h3>1 Service</h3>
+    <p>Some Text & infograph about the business</p>
+  </div>
+
+  <div>
+    <h3>2 About</h3>
+      <p>Some Text & infograph about the business</p>
+    </div>
+
+  <div>
+    <h3>3 Customer Care</h3>
+    <p>Some Text & infograph about the business</p>
+  </div>
+
+  <div>
+    <h3>4 Development</h3>
+    <p>Some Text & infograph about the business</p>
+  </div>
+</div>
+</section>
+<!--ICON GRID ends here -->
+<section>
+  <div class="container">
+    <h2>Customer Reviews</h2>
+    <br>
+    <div class="tickets">
+      <p><b>Cafe 01:</b><br>
+        <q>Great Coffee & Lovely service</q>
+        Stephen Strange, Dr.</p>
+  </div>
+
+  <div class="tickets">
+    <p><b>Cafe 02:</b><br>
+      <q>COFFEE! COFFEE! COFFEE!</q>
+    Phillip J Fry.</p>
+</div>
+
+<div class="tickets">
+  <p><b>Cafe 03:</b><br>
+    <q>She fly's like a steakhouse, but
+    handles like a bistro</q>
+  Zapp Brannigan.</p>
+</div>
+</div><!-- containter ends here -->
+</section>
+
+<div id="map"></div>
+
+<section class="contact">
+  <h2>Contact Now!</h2>
+  <div class="form">
+    <form>
+      <div class="border-f">
+    <p>Firstname:</p>
+    <br>
+    <input type="text" name="" placeholder="Firstname Here"><br>
+
+    <p>Lastname:</p>
+    <br>
+      <input type="text" name="" placeholder="Lastname Here"><br>
+      <br>
+    <p>Email:</p>
+    <br>
+    <input type="email" name="" placeholder="Email Address Here">
+    <br>
+    <p>Phone:</p>
+    <br>
+    <input type="text" name="" placeholder="Contact Phone Number">
+    <br>
+    <br>
+    <input type="submit" name="">
+  </form>
+</div><!-- border ends here -->
+</div>
+</section>
+
+
+
+<footer>
+<div class="foot-gd">
+  <div class="foot-1">
+    <h3>Developer: C Harris</h3>
+
+    <p>Digital Content Creator</p>
+  </div>
+  <div class="foot-2">
+
+  </div>
+  <div class="foot-3">
+    <h3>Photographs Taken Onsite</h3>
+      <p>Logo By Design Firm Co.</p>
+  </div>
+
+  <div class="foot-4">
+    <h3>Information Supplied By Client</h3>
+    <p>Motto or Tagline.</p>
+  </div>
+</div>
+</footer>
+
+</body>
+</html>
