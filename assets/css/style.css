@@ -11,6 +11,7 @@ body {
     width: 100%; */
     
 }
+
 /* global props | case buttons */
 button {
     background-color: #333;
@@ -125,7 +126,12 @@ h3 {
     margin: auto;
     background: #333;
 }
+.box__animate {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 
+}
 img {
     height: auto;
     width: 100%;
@@ -181,16 +187,7 @@ section {
 }
 
 
-/* personal projects box props */
-.box__animate {
-    background-position: top;
-    background-size: cover;
-    transition: all 3.5s ease; 
-}
-.box__animate:hover {
-    background-position: bottom;
-    background-size: auto;
-}
+
 /* personal projects box backgrounds */
 .box__medical {
     background-image: url("../img/box-Medical.JPG");
@@ -250,6 +247,7 @@ section {
 .box__clock {background-image: url('../img/box-clock.JPG');}
 .box__weather {background-image: url('../img/box-weather.JPG');}
 .box__futurama {background-image: url('../img/box-futurama.JPG');}
+.box__manager {background-image: url('../img/box-manager.JPG');}
 
 /* background-color: rgb(43, 201, 153); */
 
@@ -387,7 +385,16 @@ section {
         margin: auto;
         width: 100%;
     }
-    
+    /* personal projects box props */
+    .box__animate {
+        background-position: top;
+        background-size: cover;
+        transition: all 3.5s ease; 
+    }
+    .box__animate:hover {
+        background-position: bottom;
+        background-size: auto;
+    }
     .box {
         max-width: 940px;
         width: 750px;
@@ -416,7 +423,8 @@ section {
         margin: auto;
     }
     .flex .box__js-projects {
-        max-width: 350px;
+        /* max-width: 550px; */
+        width: 100%;
     }
     .box__js-projects {
         margin: 10px auto;
